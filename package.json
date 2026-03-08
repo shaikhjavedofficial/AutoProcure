@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start:backend": "python server/main.py",
-    "start:frontend": "npm run clear && parcel public/index.html --dist-dir build --open chrome --port 3001",
+    "start:frontend": "npm run clear && parcel public/index.html --dist-dir build --open chrome --port 3000",
     "start": "concurrently -c \"cyan,magenta\" -n \"REACT,FASTAPI\" \"npm run start:frontend\" \"npm run start:backend\"",
     "build": "npm run clear && parcel build public/index.html --dist-dir build",
     "test": "jest --clearMocks --no-cache --watchAll --coverage",

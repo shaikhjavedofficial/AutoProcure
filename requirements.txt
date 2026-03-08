@@ -3,6 +3,5 @@ fastapi
 httpx
 pydantic
 python-dotenv
-redis
 Requests
 uvicorn[standard]
