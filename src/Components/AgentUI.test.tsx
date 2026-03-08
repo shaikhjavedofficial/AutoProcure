@@ -1,7 +1,7 @@
 import React from 'react';
 import { act, render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Home from './Home';
+import AgentUI from './AgentUI';
 import { enqueNotistack } from '../Utils/enqueNotistack/enqueNotistack';
 import { Provider } from 'react-redux';
 import { store } from '../redux/store';
@@ -11,7 +11,7 @@ jest.mock('../Utils/enqueNotistack/enqueNotistack', () => ({
 
 test('renders Home component and calls enqueNotistack on mount', () => {
   act(()=>{
-  render( <Provider store={store}><Home /></Provider>);
+  render( <Provider store={store}><AgentUI /></Provider>);
 })
 const text = screen.getByText(/Welcome to Crisp/i);
   expect(text).toBeInTheDocument();

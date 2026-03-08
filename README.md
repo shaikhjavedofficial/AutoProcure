@@ -1,8 +1,16 @@
+#AutoProcure
+AI Bot Based on TinyFish
+
+Based on:
+
 # Crisp Template
+
 # Created using react, parcel, typescript, redux
+
 ![Responsive Full Background Image](https://github.com/shaikhjavedofficial/crisp/blob/main/packages/templates/crisp/template/public/assets/crisp_bg.png)
 
 # Setup:
+
 1. start: npm start
 2. build: npm run build
 3. test: npm test
@@ -21,15 +29,16 @@
 10. Remixicon for icons
 
 # Notes:
+
 1. To Run the project use git bash or change the start script in package.json according to your terminal
 2. Follow parcel documentaion if build fails due to bundling
-3. Not dependant of any particular dependency verions so if you update any dependency follow the  official docs for it
+3. Not dependant of any particular dependency verions so if you update any dependency follow the official docs for it
 4. This is a basic setup, you can add more features as per your requirement
 5. Best for making any type of webapp, feature rich and responsive across devices (Enterprise, E-commerce, Portfolio, University portals, Interactive, SPAs, MPAs)
 6. Remove Packege-lock.json if any dependency error occurs
 
-
 ## Contributors
+
 <table>
   <tbody>
     <tr>
