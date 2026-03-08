@@ -1,7 +1,7 @@
 # AutoProcure
 AI Bot Based on TinyFish
 
-Based on:
+UI:
 
 # Crisp Template
 
@@ -59,4 +59,5 @@ Based on:
     </tr>
   </tbody>
 </table>
+
 
